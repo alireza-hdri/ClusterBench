@@ -103,5 +103,4 @@ def renderer(address, port, uid, dashboard_name, org_id, timeVariable, DataSourc
                 print(f"\033[92mAll Pictures On Host {host} Has Taken Successfully.\033[0m")
     except Exception as e:
         print("\033[91mError, in try part\033[0m")
-        print(e)
 renderer(address, port, uid, dashboard_name, org_id, timeVariable, DataSource, start_timestamp, end_timestamp, width, height, all_hosts, save_path, tz)
